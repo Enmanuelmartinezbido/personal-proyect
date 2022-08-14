@@ -1,0 +1,25 @@
+p::first-letter {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+p::first-line {
+    background: #cf5c36;
+    line-height: 40px;
+}
+
+*::selection {
+background: #F9A03F;
+color: #fff;
+}
+
+*::-moz-selection {
+    background: #f9a03f;
+    color: #fff;
+}
+
+.caja {
+    background: #f9a03f;
+    height: 150px;
+    width: 150px;
+}

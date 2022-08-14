@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parrafo {
+    margin: 20px 10px;
+}
+
+h1{
+    margin: 10px;
+    font-family: 'Times New Roman',Arial;
+    font-size: 28px;
+    font-style: italic;
+    color: red;
+    text-decoration: underline;
+    text-transform: capitalize;
+   
+}
+
+.imagen {
+    width: 50%;
+    margin: 10px 0px;
+    
+}

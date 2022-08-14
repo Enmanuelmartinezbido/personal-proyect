@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+font-family: "open sans" sans-serif;
+background: url(img/17.jpg);
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+header {
+    width: 100%;
+    padding: 30px 0;
+    flex-direction: row;
+    background: transparent;
+    z-index: 99;
+    top: 0px;
+    transition: 0.5s;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+header .menu a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 18px;
+    
+    
+}
+
+header .menu a:hover {
+    text-decoration: underline;
+}
+
+header .logo{
+    display: flex;
+    align-items: center;
+
+}
+
+header .logo span{
+    margin: 0px 20px;
+    font-size: 33px;
+    color: #fff;
+}
+
+header .logo img {
+    width: 100px !important;
+}
+.Titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 100% !important;
+    height: auto;
+    border-radius: 10px;
+}
+
+.List-cars {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+text-transform: uppercase;
+}
+
+.cars {
+    width: 400px;
+    background: #fff;
+    border-radius: 10px;
+    margin: 20px;
+    transition: all 400ms ease;
+    margin-bottom: 100px;
+}
+
+.cars:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+
+.btn {
+    margin-top: 10px;
+    color: #fff;
+    padding: 10px;
+}
+
+.btni button {
+    width: 200px;
+    color: #fff;
+    padding: 10px;
+    box-shadow: 0px 0px 20px #000;
+    text-transform: uppercase;
+    border-radius: 10px;
+    margin: 20px 20px;
+}
+
+.cars p {
+    padding: 10px;
+}
+
+.menu {
+    display:flex;
+}
+
+.car-body {
+    text-align: left;
+    margin: 20px 20px;
+    color: #fff;
+    width: 100%;
+
+}
+
+.card-equip {
+padding-left: 20px ;
+list-style: none;
+font-size: 13px;
+padding-top: 15px;
+}
+
+.footer-content {
+    background: #000;
+    background-size: cover;
+   padding-top: 60px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    height: auto;
+    width: 100vw;
+    font-family: "open sans";
+    color: #fff;
+    align-items:center ;
+    text-align: center;
+    flex-direction: column;
+    
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.redes{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.redes img{
+    width: 2% !important;
+    background: #fff;
+    border-radius: 100px;
+}
